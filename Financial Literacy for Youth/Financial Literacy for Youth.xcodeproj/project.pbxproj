@@ -333,6 +333,7 @@
 				TargetAttributes = {
 					921ED6441D75E46B007328DF = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = D8AYJ56544;
 					};
 					921ED65D1D75E46B007328DF = {
 						CreatedOnToolsVersion = 7.3;
@@ -559,11 +560,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PREFIX_HEADER = "Financial Literacy for Youth/FinancialLiteracyforYouth-Prefix.pch";
 				INFOPLIST_FILE = "Financial Literacy for Youth/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ca.flyapp.Financial-Literacy-for-Youth";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -571,11 +575,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PREFIX_HEADER = "Financial Literacy for Youth/FinancialLiteracyforYouth-Prefix.pch";
 				INFOPLIST_FILE = "Financial Literacy for Youth/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ca.flyapp.Financial-Literacy-for-Youth";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -644,6 +651,7 @@
 				921ED6741D75E46B007328DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		921ED6751D75E46B007328DF /* Build configuration list for PBXNativeTarget "Financial Literacy for YouthTests" */ = {
 			isa = XCConfigurationList;
@@ -652,6 +660,7 @@
 				921ED6771D75E46B007328DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		921ED6781D75E46B007328DF /* Build configuration list for PBXNativeTarget "Financial Literacy for YouthUITests" */ = {
 			isa = XCConfigurationList;
@@ -660,6 +669,7 @@
 				921ED67A1D75E46B007328DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

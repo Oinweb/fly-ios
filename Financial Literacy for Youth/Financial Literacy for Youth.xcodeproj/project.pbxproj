@@ -1,0 +1,667 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		921ED64A1D75E46B007328DF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 921ED6491D75E46B007328DF /* main.m */; };
+		921ED64D1D75E46B007328DF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 921ED64C1D75E46B007328DF /* AppDelegate.m */; };
+		921ED6501D75E46B007328DF /* OINViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 921ED64F1D75E46B007328DF /* OINViewController.m */; };
+		921ED6531D75E46B007328DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 921ED6511D75E46B007328DF /* Main.storyboard */; };
+		921ED6551D75E46B007328DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 921ED6541D75E46B007328DF /* Assets.xcassets */; };
+		921ED6581D75E46B007328DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 921ED6561D75E46B007328DF /* LaunchScreen.storyboard */; };
+		921ED6631D75E46B007328DF /* Financial_Literacy_for_YouthTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 921ED6621D75E46B007328DF /* Financial_Literacy_for_YouthTests.m */; };
+		921ED66E1D75E46B007328DF /* Financial_Literacy_for_YouthUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 921ED66D1D75E46B007328DF /* Financial_Literacy_for_YouthUITests.m */; };
+		921ED67C1D75EC7C007328DF /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 921ED67B1D75EC7C007328DF /* WebKit.framework */; };
+		921ED68B1D760123007328DF /* OINNoInternetConnectivityTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 921ED6861D760123007328DF /* OINNoInternetConnectivityTableViewController.m */; };
+		921ED68C1D760123007328DF /* OINNoInternetConnectivityTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 921ED6861D760123007328DF /* OINNoInternetConnectivityTableViewController.m */; };
+		921ED68D1D760123007328DF /* OINNoInternetConnectivityTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 921ED6861D760123007328DF /* OINNoInternetConnectivityTableViewController.m */; };
+		921ED68E1D760123007328DF /* OINReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 921ED6881D760123007328DF /* OINReachability.m */; };
+		921ED68F1D760123007328DF /* OINReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 921ED6881D760123007328DF /* OINReachability.m */; };
+		921ED6901D760123007328DF /* OINReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 921ED6881D760123007328DF /* OINReachability.m */; };
+		921ED6911D760123007328DF /* OINCustomNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 921ED68A1D760123007328DF /* OINCustomNavigationController.m */; };
+		921ED6921D760123007328DF /* OINCustomNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 921ED68A1D760123007328DF /* OINCustomNavigationController.m */; };
+		921ED6931D760123007328DF /* OINCustomNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 921ED68A1D760123007328DF /* OINCustomNavigationController.m */; };
+		921ED69F1D7614B1007328DF /* NSDictionary+OINPropertyList.m in Sources */ = {isa = PBXBuildFile; fileRef = 921ED69E1D7614B1007328DF /* NSDictionary+OINPropertyList.m */; };
+		921ED6A01D7614B1007328DF /* NSDictionary+OINPropertyList.m in Sources */ = {isa = PBXBuildFile; fileRef = 921ED69E1D7614B1007328DF /* NSDictionary+OINPropertyList.m */; };
+		921ED6A11D7614B1007328DF /* NSDictionary+OINPropertyList.m in Sources */ = {isa = PBXBuildFile; fileRef = 921ED69E1D7614B1007328DF /* NSDictionary+OINPropertyList.m */; };
+		921ED6A31D7615AC007328DF /* settings-dev.plist in Resources */ = {isa = PBXBuildFile; fileRef = 921ED6A21D7615AC007328DF /* settings-dev.plist */; };
+		921ED6A41D7615AC007328DF /* settings-dev.plist in Resources */ = {isa = PBXBuildFile; fileRef = 921ED6A21D7615AC007328DF /* settings-dev.plist */; };
+		921ED6A51D7615AC007328DF /* settings-dev.plist in Resources */ = {isa = PBXBuildFile; fileRef = 921ED6A21D7615AC007328DF /* settings-dev.plist */; };
+		921ED6A71D7615BD007328DF /* settings-prod.plist in Resources */ = {isa = PBXBuildFile; fileRef = 921ED6A61D7615BD007328DF /* settings-prod.plist */; };
+		921ED6A81D7615BD007328DF /* settings-prod.plist in Resources */ = {isa = PBXBuildFile; fileRef = 921ED6A61D7615BD007328DF /* settings-prod.plist */; };
+		921ED6A91D7615BD007328DF /* settings-prod.plist in Resources */ = {isa = PBXBuildFile; fileRef = 921ED6A61D7615BD007328DF /* settings-prod.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		921ED65F1D75E46B007328DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 921ED63D1D75E46A007328DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 921ED6441D75E46B007328DF;
+			remoteInfo = "Financial Literacy for Youth";
+		};
+		921ED66A1D75E46B007328DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 921ED63D1D75E46A007328DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 921ED6441D75E46B007328DF;
+			remoteInfo = "Financial Literacy for Youth";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		921ED6451D75E46B007328DF /* Financial Literacy for Youth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Financial Literacy for Youth.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		921ED6491D75E46B007328DF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		921ED64B1D75E46B007328DF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		921ED64C1D75E46B007328DF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		921ED64E1D75E46B007328DF /* OINViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OINViewController.h; sourceTree = "<group>"; };
+		921ED64F1D75E46B007328DF /* OINViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OINViewController.m; sourceTree = "<group>"; };
+		921ED6521D75E46B007328DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		921ED6541D75E46B007328DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		921ED6571D75E46B007328DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		921ED6591D75E46B007328DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		921ED65E1D75E46B007328DF /* Financial Literacy for YouthTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Financial Literacy for YouthTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		921ED6621D75E46B007328DF /* Financial_Literacy_for_YouthTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Financial_Literacy_for_YouthTests.m; sourceTree = "<group>"; };
+		921ED6641D75E46B007328DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		921ED6691D75E46B007328DF /* Financial Literacy for YouthUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Financial Literacy for YouthUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		921ED66D1D75E46B007328DF /* Financial_Literacy_for_YouthUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Financial_Literacy_for_YouthUITests.m; sourceTree = "<group>"; };
+		921ED66F1D75E46B007328DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		921ED67B1D75EC7C007328DF /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		921ED6851D760123007328DF /* OINNoInternetConnectivityTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OINNoInternetConnectivityTableViewController.h; sourceTree = "<group>"; };
+		921ED6861D760123007328DF /* OINNoInternetConnectivityTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OINNoInternetConnectivityTableViewController.m; sourceTree = "<group>"; };
+		921ED6871D760123007328DF /* OINReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OINReachability.h; sourceTree = "<group>"; };
+		921ED6881D760123007328DF /* OINReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OINReachability.m; sourceTree = "<group>"; };
+		921ED6891D760123007328DF /* OINCustomNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OINCustomNavigationController.h; sourceTree = "<group>"; };
+		921ED68A1D760123007328DF /* OINCustomNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OINCustomNavigationController.m; sourceTree = "<group>"; };
+		921ED6941D760266007328DF /* FinancialLiteracyforYouth-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FinancialLiteracyforYouth-Prefix.pch"; sourceTree = "<group>"; };
+		921ED6951D7602DF007328DF /* OINMacrosAndConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OINMacrosAndConstants.h; sourceTree = "<group>"; };
+		921ED69D1D7614B1007328DF /* NSDictionary+OINPropertyList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+OINPropertyList.h"; sourceTree = "<group>"; };
+		921ED69E1D7614B1007328DF /* NSDictionary+OINPropertyList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+OINPropertyList.m"; sourceTree = "<group>"; };
+		921ED6A21D7615AC007328DF /* settings-dev.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "settings-dev.plist"; sourceTree = "<group>"; };
+		921ED6A61D7615BD007328DF /* settings-prod.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "settings-prod.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		921ED6421D75E46B007328DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				921ED67C1D75EC7C007328DF /* WebKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		921ED65B1D75E46B007328DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		921ED6661D75E46B007328DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		921ED63C1D75E46A007328DF = {
+			isa = PBXGroup;
+			children = (
+				921ED6471D75E46B007328DF /* Financial Literacy for Youth */,
+				921ED6611D75E46B007328DF /* Financial Literacy for YouthTests */,
+				921ED66C1D75E46B007328DF /* Financial Literacy for YouthUITests */,
+				921ED6461D75E46B007328DF /* Products */,
+				921ED67D1D75EC8D007328DF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		921ED6461D75E46B007328DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				921ED6451D75E46B007328DF /* Financial Literacy for Youth.app */,
+				921ED65E1D75E46B007328DF /* Financial Literacy for YouthTests.xctest */,
+				921ED6691D75E46B007328DF /* Financial Literacy for YouthUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		921ED6471D75E46B007328DF /* Financial Literacy for Youth */ = {
+			isa = PBXGroup;
+			children = (
+				921ED6831D760033007328DF /* Controller */,
+				921ED6841D760040007328DF /* View */,
+				921ED6961D760403007328DF /* Third Party Library */,
+				921ED6481D75E46B007328DF /* Supporting Files */,
+			);
+			path = "Financial Literacy for Youth";
+			sourceTree = "<group>";
+		};
+		921ED6481D75E46B007328DF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				921ED6591D75E46B007328DF /* Info.plist */,
+				921ED6491D75E46B007328DF /* main.m */,
+				921ED6941D760266007328DF /* FinancialLiteracyforYouth-Prefix.pch */,
+				921ED6951D7602DF007328DF /* OINMacrosAndConstants.h */,
+				921ED6A21D7615AC007328DF /* settings-dev.plist */,
+				921ED6A61D7615BD007328DF /* settings-prod.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		921ED6611D75E46B007328DF /* Financial Literacy for YouthTests */ = {
+			isa = PBXGroup;
+			children = (
+				921ED6621D75E46B007328DF /* Financial_Literacy_for_YouthTests.m */,
+				921ED6641D75E46B007328DF /* Info.plist */,
+			);
+			path = "Financial Literacy for YouthTests";
+			sourceTree = "<group>";
+		};
+		921ED66C1D75E46B007328DF /* Financial Literacy for YouthUITests */ = {
+			isa = PBXGroup;
+			children = (
+				921ED66D1D75E46B007328DF /* Financial_Literacy_for_YouthUITests.m */,
+				921ED66F1D75E46B007328DF /* Info.plist */,
+			);
+			path = "Financial Literacy for YouthUITests";
+			sourceTree = "<group>";
+		};
+		921ED67D1D75EC8D007328DF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				921ED67B1D75EC7C007328DF /* WebKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		921ED6831D760033007328DF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				921ED6991D760495007328DF /* Apple */,
+				921ED69A1D7604A4007328DF /* Navigation */,
+				921ED69B1D7604C2007328DF /* Web */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		921ED6841D760040007328DF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				921ED6541D75E46B007328DF /* Assets.xcassets */,
+				921ED6561D75E46B007328DF /* LaunchScreen.storyboard */,
+				921ED6511D75E46B007328DF /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		921ED6961D760403007328DF /* Third Party Library */ = {
+			isa = PBXGroup;
+			children = (
+				921ED69C1D760580007328DF /* Apple Extensions */,
+				921ED6971D76042B007328DF /* Rechability */,
+			);
+			name = "Third Party Library";
+			sourceTree = "<group>";
+		};
+		921ED6971D76042B007328DF /* Rechability */ = {
+			isa = PBXGroup;
+			children = (
+				921ED6981D76043C007328DF /* 3.5 */,
+			);
+			name = Rechability;
+			sourceTree = "<group>";
+		};
+		921ED6981D76043C007328DF /* 3.5 */ = {
+			isa = PBXGroup;
+			children = (
+				921ED6871D760123007328DF /* OINReachability.h */,
+				921ED6881D760123007328DF /* OINReachability.m */,
+			);
+			name = 3.5;
+			sourceTree = "<group>";
+		};
+		921ED6991D760495007328DF /* Apple */ = {
+			isa = PBXGroup;
+			children = (
+				921ED64B1D75E46B007328DF /* AppDelegate.h */,
+				921ED64C1D75E46B007328DF /* AppDelegate.m */,
+			);
+			name = Apple;
+			sourceTree = "<group>";
+		};
+		921ED69A1D7604A4007328DF /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				921ED6851D760123007328DF /* OINNoInternetConnectivityTableViewController.h */,
+				921ED6861D760123007328DF /* OINNoInternetConnectivityTableViewController.m */,
+				921ED6891D760123007328DF /* OINCustomNavigationController.h */,
+				921ED68A1D760123007328DF /* OINCustomNavigationController.m */,
+			);
+			name = Navigation;
+			sourceTree = "<group>";
+		};
+		921ED69B1D7604C2007328DF /* Web */ = {
+			isa = PBXGroup;
+			children = (
+				921ED64E1D75E46B007328DF /* OINViewController.h */,
+				921ED64F1D75E46B007328DF /* OINViewController.m */,
+			);
+			name = Web;
+			sourceTree = "<group>";
+		};
+		921ED69C1D760580007328DF /* Apple Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				921ED69D1D7614B1007328DF /* NSDictionary+OINPropertyList.h */,
+				921ED69E1D7614B1007328DF /* NSDictionary+OINPropertyList.m */,
+			);
+			name = "Apple Extensions";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		921ED6441D75E46B007328DF /* Financial Literacy for Youth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 921ED6721D75E46B007328DF /* Build configuration list for PBXNativeTarget "Financial Literacy for Youth" */;
+			buildPhases = (
+				921ED6411D75E46B007328DF /* Sources */,
+				921ED6421D75E46B007328DF /* Frameworks */,
+				921ED6431D75E46B007328DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Financial Literacy for Youth";
+			productName = "Financial Literacy for Youth";
+			productReference = 921ED6451D75E46B007328DF /* Financial Literacy for Youth.app */;
+			productType = "com.apple.product-type.application";
+		};
+		921ED65D1D75E46B007328DF /* Financial Literacy for YouthTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 921ED6751D75E46B007328DF /* Build configuration list for PBXNativeTarget "Financial Literacy for YouthTests" */;
+			buildPhases = (
+				921ED65A1D75E46B007328DF /* Sources */,
+				921ED65B1D75E46B007328DF /* Frameworks */,
+				921ED65C1D75E46B007328DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				921ED6601D75E46B007328DF /* PBXTargetDependency */,
+			);
+			name = "Financial Literacy for YouthTests";
+			productName = "Financial Literacy for YouthTests";
+			productReference = 921ED65E1D75E46B007328DF /* Financial Literacy for YouthTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		921ED6681D75E46B007328DF /* Financial Literacy for YouthUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 921ED6781D75E46B007328DF /* Build configuration list for PBXNativeTarget "Financial Literacy for YouthUITests" */;
+			buildPhases = (
+				921ED6651D75E46B007328DF /* Sources */,
+				921ED6661D75E46B007328DF /* Frameworks */,
+				921ED6671D75E46B007328DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				921ED66B1D75E46B007328DF /* PBXTargetDependency */,
+			);
+			name = "Financial Literacy for YouthUITests";
+			productName = "Financial Literacy for YouthUITests";
+			productReference = 921ED6691D75E46B007328DF /* Financial Literacy for YouthUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		921ED63D1D75E46A007328DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Bartlomiej Mika";
+				TargetAttributes = {
+					921ED6441D75E46B007328DF = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					921ED65D1D75E46B007328DF = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 921ED6441D75E46B007328DF;
+					};
+					921ED6681D75E46B007328DF = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 921ED6441D75E46B007328DF;
+					};
+				};
+			};
+			buildConfigurationList = 921ED6401D75E46A007328DF /* Build configuration list for PBXProject "Financial Literacy for Youth" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 921ED63C1D75E46A007328DF;
+			productRefGroup = 921ED6461D75E46B007328DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				921ED6441D75E46B007328DF /* Financial Literacy for Youth */,
+				921ED65D1D75E46B007328DF /* Financial Literacy for YouthTests */,
+				921ED6681D75E46B007328DF /* Financial Literacy for YouthUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		921ED6431D75E46B007328DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				921ED6A71D7615BD007328DF /* settings-prod.plist in Resources */,
+				921ED6581D75E46B007328DF /* LaunchScreen.storyboard in Resources */,
+				921ED6551D75E46B007328DF /* Assets.xcassets in Resources */,
+				921ED6531D75E46B007328DF /* Main.storyboard in Resources */,
+				921ED6A31D7615AC007328DF /* settings-dev.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		921ED65C1D75E46B007328DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				921ED6A81D7615BD007328DF /* settings-prod.plist in Resources */,
+				921ED6A41D7615AC007328DF /* settings-dev.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		921ED6671D75E46B007328DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				921ED6A91D7615BD007328DF /* settings-prod.plist in Resources */,
+				921ED6A51D7615AC007328DF /* settings-dev.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		921ED6411D75E46B007328DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				921ED6911D760123007328DF /* OINCustomNavigationController.m in Sources */,
+				921ED6501D75E46B007328DF /* OINViewController.m in Sources */,
+				921ED68B1D760123007328DF /* OINNoInternetConnectivityTableViewController.m in Sources */,
+				921ED64D1D75E46B007328DF /* AppDelegate.m in Sources */,
+				921ED64A1D75E46B007328DF /* main.m in Sources */,
+				921ED68E1D760123007328DF /* OINReachability.m in Sources */,
+				921ED69F1D7614B1007328DF /* NSDictionary+OINPropertyList.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		921ED65A1D75E46B007328DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				921ED6A01D7614B1007328DF /* NSDictionary+OINPropertyList.m in Sources */,
+				921ED68F1D760123007328DF /* OINReachability.m in Sources */,
+				921ED6631D75E46B007328DF /* Financial_Literacy_for_YouthTests.m in Sources */,
+				921ED6921D760123007328DF /* OINCustomNavigationController.m in Sources */,
+				921ED68C1D760123007328DF /* OINNoInternetConnectivityTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		921ED6651D75E46B007328DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				921ED6A11D7614B1007328DF /* NSDictionary+OINPropertyList.m in Sources */,
+				921ED6901D760123007328DF /* OINReachability.m in Sources */,
+				921ED66E1D75E46B007328DF /* Financial_Literacy_for_YouthUITests.m in Sources */,
+				921ED6931D760123007328DF /* OINCustomNavigationController.m in Sources */,
+				921ED68D1D760123007328DF /* OINNoInternetConnectivityTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		921ED6601D75E46B007328DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 921ED6441D75E46B007328DF /* Financial Literacy for Youth */;
+			targetProxy = 921ED65F1D75E46B007328DF /* PBXContainerItemProxy */;
+		};
+		921ED66B1D75E46B007328DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 921ED6441D75E46B007328DF /* Financial Literacy for Youth */;
+			targetProxy = 921ED66A1D75E46B007328DF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		921ED6511D75E46B007328DF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				921ED6521D75E46B007328DF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		921ED6561D75E46B007328DF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				921ED6571D75E46B007328DF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		921ED6701D75E46B007328DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		921ED6711D75E46B007328DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		921ED6731D75E46B007328DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "Financial Literacy for Youth/FinancialLiteracyforYouth-Prefix.pch";
+				INFOPLIST_FILE = "Financial Literacy for Youth/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ca.flyapp.Financial-Literacy-for-Youth";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		921ED6741D75E46B007328DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "Financial Literacy for Youth/FinancialLiteracyforYouth-Prefix.pch";
+				INFOPLIST_FILE = "Financial Literacy for Youth/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ca.flyapp.Financial-Literacy-for-Youth";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		921ED6761D75E46B007328DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Financial Literacy for YouthTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mikasoftware.Financial-Literacy-for-YouthTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Financial Literacy for Youth.app/Financial Literacy for Youth";
+			};
+			name = Debug;
+		};
+		921ED6771D75E46B007328DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Financial Literacy for YouthTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mikasoftware.Financial-Literacy-for-YouthTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Financial Literacy for Youth.app/Financial Literacy for Youth";
+			};
+			name = Release;
+		};
+		921ED6791D75E46B007328DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Financial Literacy for YouthUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mikasoftware.Financial-Literacy-for-YouthUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Financial Literacy for Youth";
+			};
+			name = Debug;
+		};
+		921ED67A1D75E46B007328DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Financial Literacy for YouthUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mikasoftware.Financial-Literacy-for-YouthUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Financial Literacy for Youth";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		921ED6401D75E46A007328DF /* Build configuration list for PBXProject "Financial Literacy for Youth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				921ED6701D75E46B007328DF /* Debug */,
+				921ED6711D75E46B007328DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		921ED6721D75E46B007328DF /* Build configuration list for PBXNativeTarget "Financial Literacy for Youth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				921ED6731D75E46B007328DF /* Debug */,
+				921ED6741D75E46B007328DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		921ED6751D75E46B007328DF /* Build configuration list for PBXNativeTarget "Financial Literacy for YouthTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				921ED6761D75E46B007328DF /* Debug */,
+				921ED6771D75E46B007328DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		921ED6781D75E46B007328DF /* Build configuration list for PBXNativeTarget "Financial Literacy for YouthUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				921ED6791D75E46B007328DF /* Debug */,
+				921ED67A1D75E46B007328DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 921ED63D1D75E46A007328DF /* Project object */;
+}

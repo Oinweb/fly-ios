@@ -16,12 +16,24 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AppBrandImage" translatesAutoresizingMaskIntoConstraints="NO" id="wgu-zR-quU">
+                                <rect key="frame" x="172" y="172" width="256" height="256"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="wgu-zR-quU" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="JE8-Dg-ho9"/>
+                            <constraint firstItem="wgu-zR-quU" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="KKd-BN-RE0"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="52.5" y="375"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="AppBrandImage" width="256" height="256"/>
+    </resources>
 </document>

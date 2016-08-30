@@ -16,6 +16,6 @@
  *      "settings-dev.plist" - File used for development purposes only.
  *      "settings.prod.plist" - File used for production purposes. (Warning)
  */
-#define OIN_SETTINGS_FILENAME @"settings-prod"
+#define OIN_SETTINGS_FILENAME @"settings-dev"
 
 #endif /* OINMacrosAndConstants_h */

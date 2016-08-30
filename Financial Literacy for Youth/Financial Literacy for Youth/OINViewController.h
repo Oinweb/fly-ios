@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface OINViewController : UIViewController
+@interface OINViewController : UIViewController <UIWebViewDelegate, UIScrollViewDelegate>
 
 @property (weak, nonatomic) IBOutlet UIWebView *webView;
 

@@ -10,9 +10,25 @@
 
 @interface OINViewController ()
 
+@property (weak, nonatomic) NSDictionary *plist;
+
 @end
 
 @implementation OINViewController
+
+
+/**
+ *  Lazy instantiation of loading the plist of our application.
+ */
+- (NSDictionary*)plist {
+    if (_plist) {
+        return _plist;
+    }
+    
+    // Get the plist of the application depending on what was set in the "OINMacrosAndConstants.h" file.
+    _plist = [NSDictionary oin_propertyListForFileName:OIN_SETTINGS_FILENAME];
+    return _plist;
+}
 
 
 /**
@@ -29,13 +45,15 @@
  */
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Get the URL of the application depending on what was set in the "OINMacrosAndConstants.h" file.
-    NSDictionary *plist = [NSDictionary oin_propertyListForFileName:OIN_SETTINGS_FILENAME];
-    NSURL *aURL = [NSURL URLWithString:[plist objectForKey:@"url"]];
+    NSURL *aURL = [NSURL URLWithString:[self.plist objectForKey:@"url"]];
     
     // Fetch the page and load up the UIWebView.
     NSURLRequest *requestObj = [NSURLRequest requestWithURL:aURL];
     [_webView loadRequest:requestObj];
+    
+    // Attach the UIWebView delegate to our controller so are able to
+    // perform various operations on links used.
+    [_webView setDelegate: self];
 }
 
 
@@ -43,6 +61,32 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+/**
+ *  Override the code which will evaluate every time a new page is requested
+ *  to detect if the User clicked an external link or not. If external link
+ *  was clicked then we will load up that page in Apple Safari, else keep
+ *  the link inside our UIWebView.
+ */
+- (BOOL)webView:(UIWebView *)webView
+shouldStartLoadWithRequest:(NSURLRequest *)request
+ navigationType:(UIWebViewNavigationType)navigationType {
+    // The variables used for our checking.
+    NSURL *aURL = [request URL];
+    NSURL *aBaseUrl = [NSURL URLWithString:[self.plist objectForKey:@"base_url"]];
+    
+    // Detect if this UI event was caused by a User "click" in HTML.
+    if (navigationType == UIWebViewNavigationTypeLinkClicked) {
+        if ([[aURL absoluteString] containsString: [aBaseUrl absoluteString]] == NO) {
+            // The following code will cause the requested link to be loaded
+            // up externally in Safari.
+            [[UIApplication sharedApplication] openURL:request.URL];
+            return NO;
+        }
+    }
+    return YES; // Note: This will cause the link to be loaded internally in UIWebView.
+}
+
 
 
 @end

@@ -1,7 +1,14 @@
 Description:
+Level up your financial literacy today! FLY (Financial Literacy for Youth) was designed as a unique non-profit and open source collaboration between
+Ontario Immigrant Network (oinweb.ca) and Libro Credit Union (Libro.ca). FLY offers quick and easy to understand information on savings, credit, and debt, while helping
+you to track and achieve your financial goals. Featuring social sign in, FLY is probably the easiest to use app of its kind, and support for French and Spanish will follow shortly.
+For more information please visit FLYapp.ca, and view our open source info at https://github.com/Oinweb/fly-ios.
 
 Keywords:
+finances, business, money, management, education, nonprofit, banking, saving, investing, credit
 
 Support URL:
+flyapp.ca
 
 Marketing URL:
+flyapp.ca

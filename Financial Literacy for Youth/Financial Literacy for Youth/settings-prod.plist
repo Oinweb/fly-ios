@@ -2,6 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>base_url</key>
+	<string>https://flyapp.ca</string>
 	<key>url</key>
 	<string>https://flyapp.ca/en/authentication</string>
 </dict>

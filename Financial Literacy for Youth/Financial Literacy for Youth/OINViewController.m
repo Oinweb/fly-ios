@@ -10,7 +10,7 @@
 
 @interface OINViewController ()
 
-@property (weak, nonatomic) NSDictionary *plist;
+@property (nonatomic, strong) NSDictionary *plist;
 
 @end
 
